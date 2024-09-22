@@ -6,7 +6,7 @@ Welcome to **JS-PatternGallery**, a collection of diverse JavaScript pattern pro
 
 ## 🌟 **Features**
 
-- 💻 **40+ Pattern Programs**: From simple triangles to complex palindromes.
+- 💻 **25+ Pattern Programs**: From simple triangles to complex palindromes.
 - 🔥 **Interactive Examples**: Each pattern is displayed alongside its source code for easy access.
 - 📂 **Organized Structure**: Clear, concise JavaScript implementations.
 - 🧠 **Ideal for Practice**: Strengthen your understanding of nested loops, conditionals, and logic.
@@ -50,7 +50,7 @@ node pyramid_pattern.js
 The table below contains visual previews of the patterns along with their corresponding file names. Click on the pattern name to view the source code.
 
 | Pattern Name                      | Visual Example                                                                                                                               | Source Code                                                                          |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------- |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | **Binary Triangle Pattern**       | `1`<br>`10`<br>`101`<br>`1010`<br>`10101`<br>`101010`<br>`1010101`<br>`10101010`                                                             | [binary_triangle_pattern.js](./binary_triangle_pattern.js)                           |
 | **Bricks Pattern**                | `[] [] [] [] []`<br>` [] [] [] [] []`<br>`[] [] [] [] []`<br>` [] [] [] [] []`                                                               | [bricks.js](./bricks.js)                                                             |
 | **Diamond Pattern**               | `  *`<br>` ***`<br>`*****`<br>` ***`<br>`  *`                                                                                                | [diamond_pattern.js](./diamond_pattern.js)                                           |
@@ -69,7 +69,7 @@ The table below contains visual previews of the patterns along with their corres
 | **Number Rectangle**              | `1 2 3 4 5`<br>`1 2 3 4 5`<br>`1 2 3 4 5`<br>`1 2 3 4 5`<br>`1 2 3 4 5`                                                                      | [number_rectangle.js](./number_rectangle.js)                                         |
 | **Number Square Pattern**         | `1 2 3`<br>`4 5 6`<br>`7 8 9`                                                                                                                | [number_square_pattern.js](./number_square_pattern.js)                               |
 | **Parallelogram Pattern**         | `    *****`<br>`   *****`<br>`  *****`<br>` *****`<br>`*****`                                                                                | [parallelogram_pattern.js](./parallelogram_pattern.js)                               |
-| **Pen Tree Pattern**              | `    *`<br>`   ***`<br>`  *****`<br>` *******`<br>`                                                                                          | `                                                                                    | [penTree.js](./penTree.js) |
+| **Pen Tree Pattern**              | `    *`<br>`   ***`<br>`  *****`<br>` *******`<br>`    \|`                                                                                    | [penTree.js](./penTree.js)                                                           |
 | **Pyramid Pattern**               | `    *`<br>`   ***`<br>`  *****`<br>` *******`<br>`*********`                                                                                | [pyramid_pattern.js](./pyramid_pattern.js)                                           |
 | **Reverse Left Triangle Pattern** | `* * * * *`<br>`* * * *`<br>`* * *`<br>`* *`<br>`*`                                                                                          | [reverse_left_triangle_pattern.js](./reverse_left_triangle_pattern.js)               |
 | **Reverse Number Rectangle**      | `4 3 2 1`<br>`4 3 2 1`<br>`4 3 2 1`<br>`4 3 2 1`                                                                                             | [reverse_number_rectangle.js](./reverse_number_rectangle.js)                         |
