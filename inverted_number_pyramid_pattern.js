@@ -1,13 +1,13 @@
-const readline = require("readline");
+// const readline = require("readline");
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
 
-rl.question("Enter the size of the pyramid: ", function (size) {
-  size = parseInt(size);
-
+// rl.question("Enter the size of the pyramid: ", function (size) {
+//   size = parseInt(size);
+size = 5
   for (let i = size ; i >= 1; i--) {
   let bag = "";
   for (let j = 1; j <= size - i; j++) {
@@ -20,8 +20,8 @@ rl.question("Enter the size of the pyramid: ", function (size) {
   console.log(bag);
 }
 
-  rl.close();
-});
+//   rl.close();
+// });
 
 
 // inverted number pyramid pattern.

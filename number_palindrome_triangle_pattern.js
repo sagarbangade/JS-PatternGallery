@@ -1,33 +1,33 @@
-const readline = require("readline");
+// const readline = require("readline");
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
 
-rl.question("Enter the size of the pyramid: ", function (size) {
-  size = parseInt(size);
-  
-  for (let i = 1; i <= size; i++) {
-    let bag = "";
-    
-    for (let j = 1; j <= size - i; j++) {
-      bag += " ";
-    }
+// rl.question("Enter the size of the pyramid: ", function (size) {
+//   size = parseInt(size);
+size = 5;
+for (let i = 1; i <= size; i++) {
+  let bag = "";
 
-    for (let j = 1; j <= i; j++) {
-      bag += j;
-    }
-
-    for (let j = i - 1; j >= 1; j--) {
-      bag += j;
-    }
-
-    console.log(bag);
+  for (let j = 1; j <= size - i; j++) {
+    bag += " ";
   }
 
-  rl.close();
-});
+  for (let j = 1; j <= i; j++) {
+    bag += j;
+  }
+
+  for (let j = i - 1; j >= 1; j--) {
+    bag += j;
+  }
+
+  console.log(bag);
+}
+
+//   rl.close();
+// });
 
 // number pyramid pattern.
 
@@ -35,4 +35,3 @@ rl.question("Enter the size of the pyramid: ", function (size) {
 //   121
 //  12321
 // 1234321
-
